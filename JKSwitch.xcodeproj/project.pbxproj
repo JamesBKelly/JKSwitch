@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DA5AC1D15EFABAF007941DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA5AC1C15EFABAF007941DF /* UIKit.framework */; };
+		7DA5AC1F15EFABAF007941DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA5AC1E15EFABAF007941DF /* Foundation.framework */; };
+		7DA5AC2115EFABAF007941DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA5AC2015EFABAF007941DF /* CoreGraphics.framework */; };
+		7DA5AC2715EFABAF007941DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DA5AC2515EFABAF007941DF /* InfoPlist.strings */; };
+		7DA5AC2915EFABAF007941DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5AC2815EFABAF007941DF /* main.m */; };
+		7DA5AC2D15EFABAF007941DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5AC2C15EFABAF007941DF /* AppDelegate.m */; };
+		7DA5AC3015EFABAF007941DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5AC2F15EFABAF007941DF /* ViewController.m */; };
+		7DA5AC3315EFABAF007941DF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA5AC3115EFABAF007941DF /* ViewController.xib */; };
+		7DA5AC3B15EFABAF007941DF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA5AC3A15EFABAF007941DF /* SenTestingKit.framework */; };
+		7DA5AC3C15EFABAF007941DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA5AC1C15EFABAF007941DF /* UIKit.framework */; };
+		7DA5AC3D15EFABAF007941DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA5AC1E15EFABAF007941DF /* Foundation.framework */; };
+		7DA5AC4515EFABAF007941DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DA5AC4315EFABAF007941DF /* InfoPlist.strings */; };
+		7DA5AC4815EFABAF007941DF /* JKSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5AC4715EFABAF007941DF /* JKSwitchTests.m */; };
+		7DA5AC5315EFABC6007941DF /* JKSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5AC5215EFABC6007941DF /* JKSwitch.m */; };
+		7DA9FDF415F0F32000C7DA3C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA9FDF315F0F32000C7DA3C /* QuartzCore.framework */; };
+		7DED45C015F3C99C0077DCD1 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DED45B815F3C99C0077DCD1 /* back.png */; };
+		7DED45C115F3C99C0077DCD1 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DED45B915F3C99C0077DCD1 /* back@2x.png */; };
+		7DED45C215F3C99C0077DCD1 /* border.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DED45BA15F3C99C0077DCD1 /* border.png */; };
+		7DED45C315F3C99C0077DCD1 /* border@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DED45BB15F3C99C0077DCD1 /* border@2x.png */; };
+		7DED45C415F3C99C0077DCD1 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DED45BC15F3C99C0077DCD1 /* button.png */; };
+		7DED45C515F3C99C0077DCD1 /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DED45BD15F3C99C0077DCD1 /* button@2x.png */; };
+		7DED45C615F3C99C0077DCD1 /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DED45BE15F3C99C0077DCD1 /* mask.png */; };
+		7DED45C715F3C99C0077DCD1 /* mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DED45BF15F3C99C0077DCD1 /* mask@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DA5AC3E15EFABAF007941DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DA5AC0F15EFABAF007941DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DA5AC1715EFABAF007941DF;
+			remoteInfo = JKSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DA5AC1815EFABAF007941DF /* JKSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA5AC1C15EFABAF007941DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7DA5AC1E15EFABAF007941DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DA5AC2015EFABAF007941DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7DA5AC2415EFABAF007941DF /* JKSwitch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKSwitch-Info.plist"; sourceTree = "<group>"; };
+		7DA5AC2615EFABAF007941DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DA5AC2815EFABAF007941DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DA5AC2A15EFABAF007941DF /* JKSwitch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKSwitch-Prefix.pch"; sourceTree = "<group>"; };
+		7DA5AC2B15EFABAF007941DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DA5AC2C15EFABAF007941DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DA5AC2E15EFABAF007941DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DA5AC2F15EFABAF007941DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DA5AC3215EFABAF007941DF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7DA5AC3915EFABAF007941DF /* JKSwitchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKSwitchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA5AC3A15EFABAF007941DF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7DA5AC4215EFABAF007941DF /* JKSwitchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKSwitchTests-Info.plist"; sourceTree = "<group>"; };
+		7DA5AC4415EFABAF007941DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DA5AC4615EFABAF007941DF /* JKSwitchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSwitchTests.h; sourceTree = "<group>"; };
+		7DA5AC4715EFABAF007941DF /* JKSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSwitchTests.m; sourceTree = "<group>"; };
+		7DA5AC5115EFABC6007941DF /* JKSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSwitch.h; sourceTree = "<group>"; };
+		7DA5AC5215EFABC6007941DF /* JKSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSwitch.m; sourceTree = "<group>"; };
+		7DA9FDF315F0F32000C7DA3C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7DED45B815F3C99C0077DCD1 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = ../../images/back.png; sourceTree = "<group>"; };
+		7DED45B915F3C99C0077DCD1 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back@2x.png"; path = "../../images/back@2x.png"; sourceTree = "<group>"; };
+		7DED45BA15F3C99C0077DCD1 /* border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = border.png; path = ../../images/border.png; sourceTree = "<group>"; };
+		7DED45BB15F3C99C0077DCD1 /* border@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "border@2x.png"; path = "../../images/border@2x.png"; sourceTree = "<group>"; };
+		7DED45BC15F3C99C0077DCD1 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = ../../images/button.png; sourceTree = "<group>"; };
+		7DED45BD15F3C99C0077DCD1 /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button@2x.png"; path = "../../images/button@2x.png"; sourceTree = "<group>"; };
+		7DED45BE15F3C99C0077DCD1 /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mask.png; path = ../../images/mask.png; sourceTree = "<group>"; };
+		7DED45BF15F3C99C0077DCD1 /* mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mask@2x.png"; path = "../../images/mask@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DA5AC1515EFABAF007941DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA9FDF415F0F32000C7DA3C /* QuartzCore.framework in Frameworks */,
+				7DA5AC1D15EFABAF007941DF /* UIKit.framework in Frameworks */,
+				7DA5AC1F15EFABAF007941DF /* Foundation.framework in Frameworks */,
+				7DA5AC2115EFABAF007941DF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA5AC3515EFABAF007941DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA5AC3B15EFABAF007941DF /* SenTestingKit.framework in Frameworks */,
+				7DA5AC3C15EFABAF007941DF /* UIKit.framework in Frameworks */,
+				7DA5AC3D15EFABAF007941DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DA5AC0D15EFABAF007941DF = {
+			isa = PBXGroup;
+			children = (
+				7DA9FDF315F0F32000C7DA3C /* QuartzCore.framework */,
+				7DA5AC2215EFABAF007941DF /* JKSwitch */,
+				7DA5AC4015EFABAF007941DF /* JKSwitchTests */,
+				7DA5AC1B15EFABAF007941DF /* Frameworks */,
+				7DA5AC1915EFABAF007941DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DA5AC1915EFABAF007941DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DA5AC1815EFABAF007941DF /* JKSwitch.app */,
+				7DA5AC3915EFABAF007941DF /* JKSwitchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DA5AC1B15EFABAF007941DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DA5AC1C15EFABAF007941DF /* UIKit.framework */,
+				7DA5AC1E15EFABAF007941DF /* Foundation.framework */,
+				7DA5AC2015EFABAF007941DF /* CoreGraphics.framework */,
+				7DA5AC3A15EFABAF007941DF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DA5AC2215EFABAF007941DF /* JKSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				7DA5AC2B15EFABAF007941DF /* AppDelegate.h */,
+				7DA5AC2C15EFABAF007941DF /* AppDelegate.m */,
+				7DA5AC2E15EFABAF007941DF /* ViewController.h */,
+				7DA5AC2F15EFABAF007941DF /* ViewController.m */,
+				7DA5AC5115EFABC6007941DF /* JKSwitch.h */,
+				7DA5AC5215EFABC6007941DF /* JKSwitch.m */,
+				7DE25A7315EFB35900E4DD93 /* images */,
+				7DA5AC3115EFABAF007941DF /* ViewController.xib */,
+				7DA5AC2315EFABAF007941DF /* Supporting Files */,
+			);
+			path = JKSwitch;
+			sourceTree = "<group>";
+		};
+		7DA5AC2315EFABAF007941DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DA5AC2415EFABAF007941DF /* JKSwitch-Info.plist */,
+				7DA5AC2515EFABAF007941DF /* InfoPlist.strings */,
+				7DA5AC2815EFABAF007941DF /* main.m */,
+				7DA5AC2A15EFABAF007941DF /* JKSwitch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DA5AC4015EFABAF007941DF /* JKSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DA5AC4615EFABAF007941DF /* JKSwitchTests.h */,
+				7DA5AC4715EFABAF007941DF /* JKSwitchTests.m */,
+				7DA5AC4115EFABAF007941DF /* Supporting Files */,
+			);
+			path = JKSwitchTests;
+			sourceTree = "<group>";
+		};
+		7DA5AC4115EFABAF007941DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DA5AC4215EFABAF007941DF /* JKSwitchTests-Info.plist */,
+				7DA5AC4315EFABAF007941DF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DE25A7315EFB35900E4DD93 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7DED45B815F3C99C0077DCD1 /* back.png */,
+				7DED45B915F3C99C0077DCD1 /* back@2x.png */,
+				7DED45BA15F3C99C0077DCD1 /* border.png */,
+				7DED45BB15F3C99C0077DCD1 /* border@2x.png */,
+				7DED45BC15F3C99C0077DCD1 /* button.png */,
+				7DED45BD15F3C99C0077DCD1 /* button@2x.png */,
+				7DED45BE15F3C99C0077DCD1 /* mask.png */,
+				7DED45BF15F3C99C0077DCD1 /* mask@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DA5AC1715EFABAF007941DF /* JKSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DA5AC4B15EFABAF007941DF /* Build configuration list for PBXNativeTarget "JKSwitch" */;
+			buildPhases = (
+				7DA5AC1415EFABAF007941DF /* Sources */,
+				7DA5AC1515EFABAF007941DF /* Frameworks */,
+				7DA5AC1615EFABAF007941DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKSwitch;
+			productName = JKSwitch;
+			productReference = 7DA5AC1815EFABAF007941DF /* JKSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DA5AC3815EFABAF007941DF /* JKSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DA5AC4E15EFABAF007941DF /* Build configuration list for PBXNativeTarget "JKSwitchTests" */;
+			buildPhases = (
+				7DA5AC3415EFABAF007941DF /* Sources */,
+				7DA5AC3515EFABAF007941DF /* Frameworks */,
+				7DA5AC3615EFABAF007941DF /* Resources */,
+				7DA5AC3715EFABAF007941DF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DA5AC3F15EFABAF007941DF /* PBXTargetDependency */,
+			);
+			name = JKSwitchTests;
+			productName = JKSwitchTests;
+			productReference = 7DA5AC3915EFABAF007941DF /* JKSwitchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DA5AC0F15EFABAF007941DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7DA5AC1215EFABAF007941DF /* Build configuration list for PBXProject "JKSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DA5AC0D15EFABAF007941DF;
+			productRefGroup = 7DA5AC1915EFABAF007941DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DA5AC1715EFABAF007941DF /* JKSwitch */,
+				7DA5AC3815EFABAF007941DF /* JKSwitchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DA5AC1615EFABAF007941DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA5AC2715EFABAF007941DF /* InfoPlist.strings in Resources */,
+				7DA5AC3315EFABAF007941DF /* ViewController.xib in Resources */,
+				7DED45C015F3C99C0077DCD1 /* back.png in Resources */,
+				7DED45C115F3C99C0077DCD1 /* back@2x.png in Resources */,
+				7DED45C215F3C99C0077DCD1 /* border.png in Resources */,
+				7DED45C315F3C99C0077DCD1 /* border@2x.png in Resources */,
+				7DED45C415F3C99C0077DCD1 /* button.png in Resources */,
+				7DED45C515F3C99C0077DCD1 /* button@2x.png in Resources */,
+				7DED45C615F3C99C0077DCD1 /* mask.png in Resources */,
+				7DED45C715F3C99C0077DCD1 /* mask@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA5AC3615EFABAF007941DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA5AC4515EFABAF007941DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DA5AC3715EFABAF007941DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DA5AC1415EFABAF007941DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA5AC2915EFABAF007941DF /* main.m in Sources */,
+				7DA5AC2D15EFABAF007941DF /* AppDelegate.m in Sources */,
+				7DA5AC3015EFABAF007941DF /* ViewController.m in Sources */,
+				7DA5AC5315EFABC6007941DF /* JKSwitch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA5AC3415EFABAF007941DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA5AC4815EFABAF007941DF /* JKSwitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DA5AC3F15EFABAF007941DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DA5AC1715EFABAF007941DF /* JKSwitch */;
+			targetProxy = 7DA5AC3E15EFABAF007941DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DA5AC2515EFABAF007941DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DA5AC2615EFABAF007941DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7DA5AC3115EFABAF007941DF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DA5AC3215EFABAF007941DF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		7DA5AC4315EFABAF007941DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DA5AC4415EFABAF007941DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DA5AC4915EFABAF007941DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DA5AC4A15EFABAF007941DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DA5AC4C15EFABAF007941DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKSwitch/JKSwitch-Prefix.pch";
+				INFOPLIST_FILE = "JKSwitch/JKSwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7DA5AC4D15EFABAF007941DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKSwitch/JKSwitch-Prefix.pch";
+				INFOPLIST_FILE = "JKSwitch/JKSwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7DA5AC4F15EFABAF007941DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JKSwitch.app/JKSwitch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKSwitch/JKSwitch-Prefix.pch";
+				INFOPLIST_FILE = "JKSwitchTests/JKSwitchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7DA5AC5015EFABAF007941DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JKSwitch.app/JKSwitch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKSwitch/JKSwitch-Prefix.pch";
+				INFOPLIST_FILE = "JKSwitchTests/JKSwitchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DA5AC1215EFABAF007941DF /* Build configuration list for PBXProject "JKSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA5AC4915EFABAF007941DF /* Debug */,
+				7DA5AC4A15EFABAF007941DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DA5AC4B15EFABAF007941DF /* Build configuration list for PBXNativeTarget "JKSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA5AC4C15EFABAF007941DF /* Debug */,
+				7DA5AC4D15EFABAF007941DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DA5AC4E15EFABAF007941DF /* Build configuration list for PBXNativeTarget "JKSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA5AC4F15EFABAF007941DF /* Debug */,
+				7DA5AC5015EFABAF007941DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DA5AC0F15EFABAF007941DF /* Project object */;
+}
